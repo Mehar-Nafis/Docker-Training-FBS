@@ -14,7 +14,7 @@ vi Dockerfile
 Content of Dockerfile to paste
 ```Dockerfile
 FROM ubuntu:20.04
-MAINTAINER ADMIN "admin@cloudthat.com"
+MAINTAINER ADMIN "admin@fbs.com"
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
 apt-get -q -y install apache2 \
