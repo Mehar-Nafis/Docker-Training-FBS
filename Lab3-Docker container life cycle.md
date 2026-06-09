@@ -65,10 +65,7 @@ apt update
 apt install wget -y
 ```
 ```
-rm index.html
-```
-```
-wget https://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/docker-essentials/index.html
+vi index.html
 ```
 ```
 exit
